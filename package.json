@@ -1,0 +1,34 @@
+{
+  "name": "webpackbundlingfromscratch",
+  "version": "1.0.0",
+  "description": "This is an experiment to build the bundling process of webpack from scratch. The main aim of this process is to understand bundling in general and webpack internals.",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "build": "npm run debug",
+    "debug": "node --inspect --debug-brk ./WebpackBundle/bundler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaviMarella/WebpackBundlingFromScratch.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Navi Marella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaviMarella/WebpackBundlingFromScratch/issues"
+  },
+  "homepage": "https://github.com/NaviMarella/WebpackBundlingFromScratch#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0"
+  }
+}
